@@ -18,8 +18,8 @@ idl-build = ["anchor-lang/idl-build"]
 
 [dependencies]
 anchor-lang = { path = "../../../../lang" }
-bytemuck = {version = "1.4.0", features = ["derive", "min_const_generics"]}
+bytemuck = { version = "1.4.0", features = ["derive", "min_const_generics"] }
 
 [dev-dependencies]
 anchor-client = { path = "../../../../client", features = ["debug", "async"] }
-solana-program-test = "1.17.3"
+solana-program-test = "2.0.4"
